@@ -44,5 +44,9 @@
   },
   "engines": {
     "node": "16.20.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }

@@ -1,10 +1,240 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+ 
+  <div class="container">
 
-<h1>Welcome.</h1>
-<p>Time <%= time %></p>
+
+    <div class="left">
+
+      <div class="profileText">
+        <div class="imgBox">
+          <img class="mypic" src="newpic.jpeg">
+        </div>
+        <h2>Tushar Tyagi<br><span> Software Engineer </span></h2>
+      </div> 
+
+      <div class="contactInfo">
+        <h3 class="title"> Contact Info</h3>
+         <ul>
+          <li>
+            <span class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </span>
+            <span class="text">+91 8766311355</span>
+          </li>
+          <li>
+            <span class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+            <span class="text">tyagi121201@gmail.com</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+            <span class="text">www.linkedin.com/tushartyagi12</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+            <span class="text">www.github.com/tushrtyagi</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-map" aria-hidden="true"></i></span>
+            <span class="text">Delhi ,India</span>
+          </li>
+         </ul>
+      </div>
+
+      <div class="contactInfo education">
+        <h3 class="title"> Education</h3>
+         <ul>
+          <li>
+            <h5>2019-2023</h5>
+            <h3> B.Tech - ECE </h4>
+             <h4>Guru Gobind Singh Indraprastha University</h4>
+          </li>
+          <li>
+            <h5>2017-2019</h5>
+            <h3> Higher Secondary Education , CBSE</h4>
+            <h4>Kendriya Vidyalaya Agcr colony</h4>
+          </li>
+         </ul>
+      </div>
+
+      <div class="contactInfo  certificate">
+        <h3 class="title"> Certifications</h3>
+         <ul>
+          <li>
+            <h5>11/2022 - 12/2022</h5>
+            <h3> Career Essentials in Software Development  </h4>
+             <h4>Microsoft and Linkedin</h4>
+          </li>
+          <li>
+            <h5>09/2021 - 01/2022</h5>
+            <h3> Data structures with C++</h4>
+            <h4>Coding Ninjas</h4>
+          </li>
+          
+         </ul>
+ 
+         <div class="clock">
+          <span class="hour"></span>
+          <span class="min"></span>
+          <span class="sec"></span>
+      </div>
+
+      </div>
+
+      <!-- <div class="contactInfo language">
+        <h3 class="title"> Languages</h3>
+         <ul>
+          <li>
+            <span class="text">English</span>
+            <span class="percent"></span>
+          </li>
+          <li>
+            <span class="text">Hindi</span>
+            <span class="percent"></span>
+          </li>
+          
+         </ul>
+      </div> -->
+
+    </div>
+    <div class="right">
+      <div class="about">
+        <h2 class="title2">Profile</h2>
+          <p>I am passionate about utilizing my technical skills and analytical mindset to tackle complex challenges and deliver innovative solutions.
+
+            With a strong foundation in programming languages such as Python, and C++, I have developed a keen eye for detail and a knack for debugging.  <br><br>
+          </p>
+      </div>
+      <div class="about">
+        <h2 class="title2">Experience</h2>
+        <div class="box">
+
+          <div class="year_company">
+            <h5> JULY 2022</h5>
+            <h5>DS GROUP</h5>
+          </div>
+          <div class="text">
+            <h4>Data analyst Intern</h4>
+            <p>Worked and gained knowledge on projects based on machine learning, ,computer vision and image processing as well as object detection </p>
+  
+          </div>
+        </div>
+        <div class="box">
+
+          <div class="year_company">
+            <h5> AUGUST 2021</h5>
+            <h5>GGSIPU ACM USICT </h5>
+          </div>
+          <div class="text">
+            <h4>ML Intern </h4>
+            <p>Worked on ML model based on voice translation (speech to speech) in 10 various languages in a team of 2 members</p>
+  
+          </div>
+        </div>
+      </div>
+      <div class="about skills">
+        <h2 class="title2">Professional Skills</h2>
+        <div class="box">
+          <ul>
+            <li>C++</li>
+            <li>React</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>ML</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contactInfo projects">
+        <h3 class="title2"> Projects </h3>
+   
+        <div class="projectBtn">
+          <a href = "/insert">Add Project</a>
+      </div>
+               <ul>
+                <li>
+                  <h5>11/2022 - 12/2022</h5>
+                  <h3> Video Browser Web App with ReactJS  </h3>
+                   <p>The Video Browser Web App is a dynamic and interactive web application developed using ReactJS. It provides users with a seamless and engaging experience for browsing and watching videos online.</p>
+                   <!-- <h4>Microsoft and Linkedin</h4> -->
+                </li>
+                <li>
+                  <h5>03/2023 - Present </h5>
+                  <h3> Disney+ Clone with React JS</h3>
+                    <p>This project involved the development of a Disney+ Clone, a video-on-demand streaming platform that offers a wide range of TV shows, movies, and documentaries.</p>
+                  <!-- <h4>Coding Ninjas</h4> -->
+                </li>
+
+                <%for(let i  = 0; i < projects.length; i++){%>
+                  <li>
+                    <h5><%=projects[i].date%></h5>
+                    <h3><%=projects[i].name%></h3>
+                    <p>
+                        <%=projects[i].desc%>
+                    </p>
+                  </li>
+
+                  </section>
+              <%}%>
+
+                
+               </ul>
+            
+      </div>
+
+      <div class="about interest">
+        <h2 class="title2">Interest</h2>
+        
+          <ul>
+            <li>Coding</li>
+            <li>Video Editing</li>
+            <li>Music</li>
+            
+          </ul>
+      
+      </div>
+
+    </div>
+     
+  </div>
+   
+  </div>
+
+  <script >
+
+let clocktime=()=>{
+
+const date = new Date();
+let hour = date.getHours() %12;
+let min = date.getMinutes();
+let sec = date.getSeconds();
+
+let hrDiv = document.querySelector(".hour");
+let mintDiv = document.querySelector(".min");
+let secDiv = document.querySelector(".sec");
+
+hrDiv.innerHTML = hour + " hr";
+mintDiv.innerHTML = min + " min";
+secDiv.innerHTML = sec + " sec";
+
+setInterval(clocktime,1000);
+}
+
+clocktime();
+
+  </script>
 </body>
 </html>

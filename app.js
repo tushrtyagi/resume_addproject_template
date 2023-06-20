@@ -97,6 +97,7 @@ new class App {
                 req.rawBody = buf;
             }
         }));
+        this.app.use(bodyParser.urlencoded({ extended: true }));
         this.app.use(cookieParser());
         this.app.use(cors({origin: true, credentials: true}));
         this.app.set('view engine', 'ejs');
@@ -224,7 +225,7 @@ new class App {
         new MainSocketController(io);
         server.listen(this.port);
         return new Promise((res, rej) => {
-            server.on('listening', () => {
+            server.on('listening', () => {  
                 let addr = server.address();
                 let bind = typeof addr === 'string'
                     ? 'pipe ' + addr
@@ -235,4 +236,5 @@ new class App {
             });
         });
     }
+    
 };
